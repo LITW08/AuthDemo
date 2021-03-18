@@ -1,0 +1,11 @@
+﻿
+@model HomePageViewModel
+
+@if (Model.IsAuthenticated)
+{
+    <h1>Welcome back @Model.CurrentUser.Name - and your id is @Model.CurrentUser.Id</h1>
+}
+else
+{
+    <h1>I have no idea who you are or why you are here, please log in!!</h1>
+}

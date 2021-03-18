@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthDemo.Web", "AuthDemo.Web\AuthDemo.Web.csproj", "{3CAA9A07-0B14-4C7A-A276-999B3F8B4C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthDemo.Data", "AuthDemo.Data\AuthDemo.Data.csproj", "{5EC41435-2E9F-4AF0-A75D-4D4C6492DC58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CAA9A07-0B14-4C7A-A276-999B3F8B4C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAA9A07-0B14-4C7A-A276-999B3F8B4C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAA9A07-0B14-4C7A-A276-999B3F8B4C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAA9A07-0B14-4C7A-A276-999B3F8B4C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC41435-2E9F-4AF0-A75D-4D4C6492DC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC41435-2E9F-4AF0-A75D-4D4C6492DC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC41435-2E9F-4AF0-A75D-4D4C6492DC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC41435-2E9F-4AF0-A75D-4D4C6492DC58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57810480-3F6F-4A97-8BF4-D6B94B6EBD94}
+	EndGlobalSection
+EndGlobal
